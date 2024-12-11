@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start-server": "yarn workspace backend start",
+    "start-client": "yarn workspace frontend dev",
+    "test-client": "yarn workspace frontend test",
+    "test-client:watch": "yarn workspace frontend test:watch"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "semi": false
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
