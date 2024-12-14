@@ -4,7 +4,6 @@
 이 애플리케이션은 `7월 한 달` 동안 발생한 구매 데이터를 기반으로 몇 가지 주요 정보를 제공해야 합니다.
 
 ```cmd
-cd apps
 yarn install
 yarn start-server
 yarn start-client
